@@ -1,0 +1,87 @@
+/*
+Name: Kyle Stranick
+Course: ITN 264
+Section: 201
+*/
+
+
+
+ody {
+    background-color: #f8f9fa;
+    /* Light gray background */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    /* Full viewport height */
+    display: flex;
+    align-items: center;
+    /* Vertically centers the card */
+    justify-content: center;
+    /* Horizontally centers the card */
+    padding: 20px;
+}
+
+.card {
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.card-header {
+    background-color: #343a40;
+    /* Dark gray header */
+    color: #ffffff;
+    /* White text */
+    padding: 20px;
+}
+
+.card-header h1 {
+    margin: 0;
+    font-size: 1.75rem;
+}
+
+.company-details {
+    text-align: right;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa;
+    /* Light gray background for table rows */
+}
+
+.table th {
+    background-color: #e9ecef;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table td,
+.table th {
+    padding: 15px;
+}
+
+.total-box {
+    background-color: #007bff;
+    /* Light blue */
+    padding: 20px;
+    text-align: right;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #343a40;
+    /* Dark gray footer */
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
